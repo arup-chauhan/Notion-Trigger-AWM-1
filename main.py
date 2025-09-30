@@ -38,7 +38,7 @@ data = {
 
         # Title field
         "Transaction Type": {
-            "title": [{"text": {"content": f"Daily Cash Flow – {today}"}}]
+            "title": [{"text": {"content": f"Daily Cash Flow Automation – {today}"}}]
         },
 
     }
