@@ -45,4 +45,9 @@ data = {
 }
 
 res = requests.post("https://api.notion.com/v1/pages", headers=headers, json=data)
-print(res.status_code, res.text)
+print("Status:", res.status_code)
+try:
+    print("Response:", res.json())
+except Exception:
+    print(res.text)
+
